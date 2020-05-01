@@ -1,0 +1,995 @@
+{
+	"ws": {
+		"inf_resources": [
+			{
+				"type": "mssql",
+				"ir_name": "MPS Restoran",
+				"ip": "147.91.175.155",
+				"dbname": "tim_201_5_ui2018",
+				"usn": "tim_201_5_ui2018",
+				"password": "ePzSFm92H9-KUbWT",
+				"packages": [
+					{
+						"pack_name": "default",
+						"entities": [
+							{
+								"name": "ARTIKAL_MENIJA",
+								"type": "sql",
+								"path": "",
+								"attributes": [
+									{
+										"key": "ARTIKAL_ID",
+										"dt": "BIGINT",
+										"mend": true,
+										"len": 0,
+										"pk": true
+									},
+									{
+										"key": "NAZIV",
+										"dt": "VARCHAR",
+										"mend": true,
+										"len": 32,
+										"pk": false
+									}
+								]
+							},
+							{
+								"name": "CENOVNIK",
+								"type": "sql",
+								"path": "",
+								"attributes": [
+									{
+										"key": "CENOVNIK_ID",
+										"dt": "BIGINT",
+										"mend": true,
+										"len": 0,
+										"pk": true
+									},
+									{
+										"key": "RESOTRAN_ID",
+										"dt": "BIGINT",
+										"mend": false,
+										"len": 0,
+										"pk": false
+									},
+									{
+										"key": "NAZIV",
+										"dt": "VARCHAR",
+										"mend": false,
+										"len": 32,
+										"pk": false
+									},
+									{
+										"key": "VAZI_OD",
+										"dt": "DATETIME",
+										"mend": false,
+										"len": 0,
+										"pk": false
+									},
+									{
+										"key": "VAZI_DO",
+										"dt": "DATETIME",
+										"mend": false,
+										"len": 0,
+										"pk": false
+									}
+								]
+							},
+							{
+								"name": "DOBAVLJAC",
+								"type": "sql",
+								"path": "",
+								"attributes": [
+									{
+										"key": "DOBAVLJAC_ID",
+										"dt": "BIGINT",
+										"mend": true,
+										"len": 0,
+										"pk": true
+									},
+									{
+										"key": "RESOTRAN_ID",
+										"dt": "BIGINT",
+										"mend": false,
+										"len": 0,
+										"pk": false
+									},
+									{
+										"key": "IME_DOBAVLJACA",
+										"dt": "VARCHAR",
+										"mend": true,
+										"len": 50,
+										"pk": false
+									}
+								]
+							},
+							{
+								"name": "KONOBAR",
+								"type": "sql",
+								"path": "",
+								"attributes": [
+									{
+										"key": "ZAPOSLENI_ID",
+										"dt": "BIGINT",
+										"mend": true,
+										"len": 0,
+										"pk": true
+									},
+									{
+										"key": "RESOTRAN_ID",
+										"dt": "BIGINT",
+										"mend": false,
+										"len": 0,
+										"pk": false
+									},
+									{
+										"key": "MENADZER_ID",
+										"dt": "BIGINT",
+										"mend": false,
+										"len": 0,
+										"pk": false
+									},
+									{
+										"key": "IME",
+										"dt": "VARCHAR",
+										"mend": true,
+										"len": 32,
+										"pk": false
+									},
+									{
+										"key": "PREZIME",
+										"dt": "VARCHAR",
+										"mend": true,
+										"len": 32,
+										"pk": false
+									},
+									{
+										"key": "ADRESA",
+										"dt": "VARCHAR",
+										"mend": false,
+										"len": 100,
+										"pk": false
+									},
+									{
+										"key": "PLATA",
+										"dt": "DECIMAL",
+										"mend": true,
+										"len": 0,
+										"pk": false
+									}
+								]
+							},
+							{
+								"name": "KUVAR",
+								"type": "sql",
+								"path": "",
+								"attributes": [
+									{
+										"key": "ZAPOSLENI_ID",
+										"dt": "BIGINT",
+										"mend": true,
+										"len": 0,
+										"pk": true
+									},
+									{
+										"key": "RESOTRAN_ID",
+										"dt": "BIGINT",
+										"mend": false,
+										"len": 0,
+										"pk": false
+									},
+									{
+										"key": "MENADZER_ID",
+										"dt": "BIGINT",
+										"mend": false,
+										"len": 0,
+										"pk": false
+									},
+									{
+										"key": "IME",
+										"dt": "VARCHAR",
+										"mend": true,
+										"len": 32,
+										"pk": false
+									},
+									{
+										"key": "PREZIME",
+										"dt": "VARCHAR",
+										"mend": true,
+										"len": 32,
+										"pk": false
+									},
+									{
+										"key": "ADRESA",
+										"dt": "VARCHAR",
+										"mend": false,
+										"len": 100,
+										"pk": false
+									},
+									{
+										"key": "PLATA",
+										"dt": "DECIMAL",
+										"mend": true,
+										"len": 0,
+										"pk": false
+									}
+								]
+							},
+							{
+								"name": "NAMIRNICA",
+								"type": "sql",
+								"path": "",
+								"attributes": [
+									{
+										"key": "NAMIRNICA_ID",
+										"dt": "BIGINT",
+										"mend": true,
+										"len": 0,
+										"pk": true
+									},
+									{
+										"key": "NAZIV",
+										"dt": "VARCHAR",
+										"mend": true,
+										"len": 32,
+										"pk": false
+									}
+								]
+							},
+							{
+								"name": "NARUDZBINA",
+								"type": "sql",
+								"path": "",
+								"attributes": [
+									{
+										"key": "NARUDZBINA_ID",
+										"dt": "BIGINT",
+										"mend": true,
+										"len": 0,
+										"pk": true
+									},
+									{
+										"key": "STO_ID",
+										"dt": "FLOAT",
+										"mend": true,
+										"len": 0,
+										"pk": false
+									},
+									{
+										"key": "KONOBAR",
+										"dt": "BIGINT",
+										"mend": false,
+										"len": 0,
+										"pk": false
+									},
+									{
+										"key": "OTVORENA",
+										"dt": "BIT",
+										"mend": false,
+										"len": 0,
+										"pk": false
+									}
+								]
+							},
+							{
+								"name": "PRIJEMNICA",
+								"type": "sql",
+								"path": "",
+								"attributes": [
+									{
+										"key": "PRIJEMNICA_ID",
+										"dt": "BIGINT",
+										"mend": true,
+										"len": 0,
+										"pk": true
+									},
+									{
+										"key": "PRIMALAC",
+										"dt": "BIGINT",
+										"mend": true,
+										"len": 0,
+										"pk": false
+									},
+									{
+										"key": "DOBAVLJAC_ID",
+										"dt": "BIGINT",
+										"mend": false,
+										"len": 0,
+										"pk": false
+									},
+									{
+										"key": "DATUM_PRIJEMA",
+										"dt": "DATETIME",
+										"mend": true,
+										"len": 0,
+										"pk": false
+									}
+								]
+							},
+							{
+								"name": "RACUN",
+								"type": "sql",
+								"path": "",
+								"attributes": [
+									{
+										"key": "RACUN_ID",
+										"dt": "BIGINT",
+										"mend": true,
+										"len": 0,
+										"pk": true
+									},
+									{
+										"key": "DATUM_IZDAVANJA",
+										"dt": "DATETIME",
+										"mend": true,
+										"len": 0,
+										"pk": false
+									},
+									{
+										"key": "UKUPAN_IZNOS",
+										"dt": "DECIMAL",
+										"mend": true,
+										"len": 0,
+										"pk": false
+									}
+								]
+							},
+							{
+								"name": "RESTORAN",
+								"type": "sql",
+								"path": "",
+								"attributes": [
+									{
+										"key": "RESOTRAN_ID",
+										"dt": "BIGINT",
+										"mend": true,
+										"len": 0,
+										"pk": true
+									},
+									{
+										"key": "NAZIV",
+										"dt": "VARCHAR",
+										"mend": true,
+										"len": 32,
+										"pk": false
+									},
+									{
+										"key": "ADRESA",
+										"dt": "VARCHAR",
+										"mend": false,
+										"len": 100,
+										"pk": false
+									},
+									{
+										"key": "TELEFON",
+										"dt": "VARCHAR",
+										"mend": false,
+										"len": 15,
+										"pk": false
+									},
+									{
+										"key": "EMAIL",
+										"dt": "VARCHAR",
+										"mend": false,
+										"len": 100,
+										"pk": false
+									},
+									{
+										"key": "WEBSITE",
+										"dt": "VARCHAR",
+										"mend": false,
+										"len": 100,
+										"pk": false
+									},
+									{
+										"key": "PIB",
+										"dt": "VARCHAR",
+										"mend": false,
+										"len": 30,
+										"pk": false
+									}
+								]
+							},
+							{
+								"name": "REZERVACIJA",
+								"type": "sql",
+								"path": "",
+								"attributes": [
+									{
+										"key": "REZERVACIJA_ID",
+										"dt": "BIGINT",
+										"mend": true,
+										"len": 0,
+										"pk": true
+									},
+									{
+										"key": "RESOTRAN_ID",
+										"dt": "BIGINT",
+										"mend": false,
+										"len": 0,
+										"pk": false
+									},
+									{
+										"key": "BROJ_GOSTIJU",
+										"dt": "INT",
+										"mend": false,
+										"len": 0,
+										"pk": false
+									},
+									{
+										"key": "VAZI_DO",
+										"dt": "DATETIME",
+										"mend": false,
+										"len": 0,
+										"pk": false
+									},
+									{
+										"key": "IME_REZERVACIJE",
+										"dt": "VARCHAR",
+										"mend": false,
+										"len": 50,
+										"pk": false
+									}
+								]
+							},
+							{
+								"name": "REZERVACIJA_STOLA",
+								"type": "sql",
+								"path": "",
+								"attributes": [
+									{
+										"key": "REZERVACIJA_ID",
+										"dt": "BIGINT",
+										"mend": true,
+										"len": 0,
+										"pk": true
+									},
+									{
+										"key": "STO_ID",
+										"dt": "FLOAT",
+										"mend": true,
+										"len": 0,
+										"pk": true
+									}
+								]
+							},
+							{
+								"name": "SALA",
+								"type": "sql",
+								"path": "",
+								"attributes": [
+									{
+										"key": "SALA_ID",
+										"dt": "BIGINT",
+										"mend": true,
+										"len": 0,
+										"pk": true
+									},
+									{
+										"key": "RESOTRAN_ID",
+										"dt": "BIGINT",
+										"mend": false,
+										"len": 0,
+										"pk": false
+									},
+									{
+										"key": "NAZIV_SALE",
+										"dt": "VARCHAR",
+										"mend": false,
+										"len": 100,
+										"pk": false
+									}
+								]
+							},
+							{
+								"name": "SASTOJAK",
+								"type": "sql",
+								"path": "",
+								"attributes": [
+									{
+										"key": "SASTOJAK_ID",
+										"dt": "BIGINT",
+										"mend": true,
+										"len": 0,
+										"pk": true
+									},
+									{
+										"key": "ARTIKAL_ID",
+										"dt": "BIGINT",
+										"mend": true,
+										"len": 0,
+										"pk": false
+									},
+									{
+										"key": "NAMIRNICA_ID",
+										"dt": "BIGINT",
+										"mend": true,
+										"len": 0,
+										"pk": false
+									},
+									{
+										"key": "KOLICINU",
+										"dt": "NUMERIC",
+										"mend": false,
+										"len": 0,
+										"pk": false
+									},
+									{
+										"key": "JEDINICA_MERE",
+										"dt": "VARCHAR",
+										"mend": false,
+										"len": 10,
+										"pk": false
+									}
+								]
+							},
+							{
+								"name": "STAVKA_CENOVNIKA",
+								"type": "sql",
+								"path": "",
+								"attributes": [
+									{
+										"key": "CENOVNIK_ID",
+										"dt": "BIGINT",
+										"mend": true,
+										"len": 0,
+										"pk": true
+									},
+									{
+										"key": "JELO_ID",
+										"dt": "BIGINT",
+										"mend": true,
+										"len": 0,
+										"pk": true
+									},
+									{
+										"key": "CENA",
+										"dt": "DECIMAL",
+										"mend": true,
+										"len": 0,
+										"pk": false
+									}
+								]
+							},
+							{
+								"name": "STAVKA_NARUDZBINE",
+								"type": "sql",
+								"path": "",
+								"attributes": [
+									{
+										"key": "NARUDZBINA_ID",
+										"dt": "BIGINT",
+										"mend": true,
+										"len": 0,
+										"pk": true
+									},
+									{
+										"key": "STAVKA_ID",
+										"dt": "BIGINT",
+										"mend": true,
+										"len": 0,
+										"pk": true
+									},
+									{
+										"key": "RACUN_ID",
+										"dt": "BIGINT",
+										"mend": false,
+										"len": 0,
+										"pk": false
+									},
+									{
+										"key": "JELO_ID",
+										"dt": "BIGINT",
+										"mend": true,
+										"len": 0,
+										"pk": false
+									},
+									{
+										"key": "KOLICINA",
+										"dt": "NUMERIC",
+										"mend": false,
+										"len": 0,
+										"pk": false
+									}
+								]
+							},
+							{
+								"name": "STAVKA_PRIJEMNICE",
+								"type": "sql",
+								"path": "",
+								"attributes": [
+									{
+										"key": "PRIJEMNICA_ID",
+										"dt": "BIGINT",
+										"mend": true,
+										"len": 0,
+										"pk": true
+									},
+									{
+										"key": "STAVKA_PRIJEMNICE_ID",
+										"dt": "BIGINT",
+										"mend": true,
+										"len": 0,
+										"pk": true
+									},
+									{
+										"key": "NAMIRNICA_ID",
+										"dt": "BIGINT",
+										"mend": true,
+										"len": 0,
+										"pk": false
+									},
+									{
+										"key": "KOLICINA",
+										"dt": "NUMERIC",
+										"mend": true,
+										"len": 0,
+										"pk": false
+									},
+									{
+										"key": "JEDINICA_MERE",
+										"dt": "VARCHAR",
+										"mend": false,
+										"len": 10,
+										"pk": false
+									}
+								]
+							},
+							{
+								"name": "STO",
+								"type": "sql",
+								"path": "",
+								"attributes": [
+									{
+										"key": "STO_ID",
+										"dt": "FLOAT",
+										"mend": true,
+										"len": 0,
+										"pk": true
+									},
+									{
+										"key": "SALA_ID",
+										"dt": "BIGINT",
+										"mend": true,
+										"len": 0,
+										"pk": false
+									},
+									{
+										"key": "BROJ_MESTA",
+										"dt": "INT",
+										"mend": false,
+										"len": 0,
+										"pk": false
+									}
+								]
+							},
+							{
+								"name": "ZAPOSLENI",
+								"type": "sql",
+								"path": "",
+								"attributes": [
+									{
+										"key": "ZAPOSLENI_ID",
+										"dt": "BIGINT",
+										"mend": true,
+										"len": 0,
+										"pk": true
+									},
+									{
+										"key": "RESOTRAN_ID",
+										"dt": "BIGINT",
+										"mend": false,
+										"len": 0,
+										"pk": false
+									},
+									{
+										"key": "MENADZER_ID",
+										"dt": "BIGINT",
+										"mend": false,
+										"len": 0,
+										"pk": false
+									},
+									{
+										"key": "IME",
+										"dt": "VARCHAR",
+										"mend": true,
+										"len": 32,
+										"pk": false
+									},
+									{
+										"key": "PREZIME",
+										"dt": "VARCHAR",
+										"mend": true,
+										"len": 32,
+										"pk": false
+									},
+									{
+										"key": "ADRESA",
+										"dt": "VARCHAR",
+										"mend": false,
+										"len": 100,
+										"pk": false
+									},
+									{
+										"key": "PLATA",
+										"dt": "DECIMAL",
+										"mend": true,
+										"len": 0,
+										"pk": false
+									}
+								]
+							}
+						],
+						"relations": [
+							{
+								"name": "RESTORAN_CENOVNIK",
+								"source_table": "RESTORAN",
+								"source_keys": [
+									"RESOTRAN_ID"
+								],
+								"target_table": "CENOVNIK",
+								"target_keys": [
+									"RESOTRAN_ID"
+								]
+							},
+							{
+								"name": "RESTORAN_DOBAVLJAC",
+								"source_table": "RESTORAN",
+								"source_keys": [
+									"RESOTRAN_ID"
+								],
+								"target_table": "DOBAVLJAC",
+								"target_keys": [
+									"RESOTRAN_ID"
+								]
+							},
+							{
+								"name": "ARTIKAL_MENIJA_SASTOJAK",
+								"source_table": "ARTIKAL_MENIJA",
+								"source_keys": [
+									"ARTIKAL_ID"
+								],
+								"target_table": "SASTOJAK",
+								"target_keys": [
+									"ARTIKAL_ID"
+								]
+							},
+							{
+								"name": "ZAPOSLENI_ZAPOSLENI",
+								"source_table": "ZAPOSLENI",
+								"source_keys": [
+									"ZAPOSLENI_ID"
+								],
+								"target_table": "ZAPOSLENI",
+								"target_keys": [
+									"MENADZER_ID"
+								]
+							},
+							{
+
+								"name": "NAMIRNICA_SASTOJAK",
+								"source_table": "NAMIRNICA",
+								"source_keys": [
+									"NAMIRNICA_ID"
+								],
+								"target_table": "SASTOJAK",
+								"target_keys": [
+									"NAMIRNICA_ID"
+								]
+							},
+							{
+								"name": "STO_NARUDZBINA",
+								"source_table": "STO",
+								"source_keys": [
+									"STO_ID"
+								],
+								"target_table": "NARUDZBINA",
+								"target_keys": [
+									"STO_ID"
+								]
+							},
+							{
+								"name": "KONOBAR_NARUDZBINA",
+								"source_table": "KONOBAR",
+								"source_keys": [
+									"ZAPOSLENI_ID"
+								],
+								"target_table": "NARUDZBINA",
+								"target_keys": [
+									"KONOBAR"
+								]
+							},
+							{
+								"name": "PRIJEMNICA_STAVKA_PRIJEMNICE",
+								"source_table": "PRIJEMNICA",
+								"source_keys": [
+									"PRIJEMNICA_ID"
+								],
+								"target_table": "STAVKA_PRIJEMNICE",
+								"target_keys": [
+									"PRIJEMNICA_ID"
+								]
+							},
+							{
+								"name": "DOBAVLJAC_PRIJEMNICA",
+								"source_table": "DOBAVLJAC",
+								"source_keys": [
+									"DOBAVLJAC_ID"
+								],
+								"target_table": "PRIJEMNICA",
+								"target_keys": [
+									"DOBAVLJAC_ID"
+								]
+							},
+							{
+								"name": "ZAPOSLENI_PRIJEMNICA",
+								"source_table": "ZAPOSLENI",
+								"source_keys": [
+									"ZAPOSLENI_ID"
+								],
+								"target_table": "PRIJEMNICA",
+								"target_keys": [
+									"PRIMALAC"
+								]
+							},
+							{
+								"name": "STO_REZERVACIJA_STOLA",
+								"source_table": "STO",
+								"source_keys": [
+									"STO_ID"
+								],
+								"target_table": "REZERVACIJA_STOLA",
+								"target_keys": [
+									"STO_ID"
+								]
+							},
+							{
+								"name": "RESTORAN_REZERVACIJA",
+								"source_table": "RESTORAN",
+								"source_keys": [
+									"RESOTRAN_ID"
+								],
+								"target_table": "REZERVACIJA",
+								"target_keys": [
+									"RESOTRAN_ID"
+								]
+							},
+							{
+								"name": "REZERVACIJA_REZERVACIJA_STOLA",
+								"source_table": "REZERVACIJA",
+								"source_keys": [
+									"REZERVACIJA_ID"
+								],
+								"target_table": "REZERVACIJA_STOLA",
+								"target_keys": [
+									"REZERVACIJA_ID"
+								]
+							},
+							{
+								"name": "RESTORAN_SALA",
+								"source_table": "RESTORAN",
+								"source_keys": [
+									"RESOTRAN_ID"
+								],
+								"target_table": "SALA",
+								"target_keys": [
+									"RESOTRAN_ID"
+								]
+							},
+							{
+								"name": "ARTIKAL_MENIJA__STAVKA_NARUDZBINE",
+								"source_table": "ARTIKAL_MENIJA",
+								"source_keys": [
+									"ARTIKAL_ID"
+								],
+								"target_table": "STAVKA_NARUDZBINE",
+								"target_keys": [
+									"JELO_ID"
+								]
+							},
+							{
+								"name": "ARTIKAL_MENIJA_STAVKA_CENOVNIKA",
+								"source_table": "ARTIKAL_MENIJA",
+								"source_keys": [
+									"ARTIKAL_ID"
+								],
+								"target_table": "STAVKA_CENOVNIKA",
+								"target_keys": [
+									"JELO_ID"
+								]
+							},
+							{
+								"name": "NARUDZBINA_STAVKA_NARUDZBINE",
+								"source_table": "NARUDZBINA",
+								"source_keys": [
+									"NARUDZBINA_ID"
+								],
+								"target_table": "STAVKA_NARUDZBINE",
+								"target_keys": [
+									"NARUDZBINA_ID"
+								]
+							},
+							{
+								"name": "CENOVNIK_STAVKA_CENOVNIKA",
+								"source_table": "CENOVNIK",
+								"source_keys": [
+									"CENOVNIK_ID"
+								],
+								"target_table": "STAVKA_CENOVNIKA",
+								"target_keys": [
+									"CENOVNIK_ID"
+								]
+							},
+							{
+								"name": "SALA_STO",
+								"source_table": "SALA",
+								"source_keys": [
+									"SALA_ID"
+								],
+								"target_table": "STO",
+								"target_keys": [
+									"SALA_ID"
+								]
+							},
+							{
+								"name": "NAMIRNICA_STAVKA_PRIJEMNICE",
+								"source_table": "NAMIRNICA",
+								"source_keys": [
+									"NAMIRNICA_ID"
+								],
+								"target_table": "STAVKA_PRIJEMNICE",
+								"target_keys": [
+									"NAMIRNICA_ID"
+								]
+							},
+							{
+								"name": "RACUN_STAVKA_NARUDZBINE",
+								"source_table": "RACUN",
+								"source_keys": [
+									"RACUN_ID"
+								],
+								"target_table": "STAVKA_NARUDZBINE",
+								"target_keys": [
+									"RACUN_ID"
+								]
+							},
+							{
+								"name": "ZAPOSLENI_KONOBAR",
+								"source_table": "ZAPOSLENI",
+								"source_keys": [
+									"ZAPOSLENI_ID"
+								],
+								"target_table": "KONOBAR",
+								"target_keys": [
+									"ZAPOSLENI_ID"
+								]
+							},
+							{
+								"name": "ZAPOSLENI_KUVAR",
+								"source_table": "ZAPOSLENI",
+								"source_keys": [
+									"ZAPOSLENI_ID"
+								],
+								"target_table": "KUVAR",
+								"target_keys": [
+									"ZAPOSLENI_ID"
+								]
+							},
+							{
+								"name": "RESTORAN_ZAPOSLENI",
+								"source_table": "RESTORAN",
+								"source_keys": [
+									"RESOTRAN_ID"
+								],
+								"target_table": "ZAPOSLENI",
+								"target_keys": [
+									"RESOTRAN_ID"
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

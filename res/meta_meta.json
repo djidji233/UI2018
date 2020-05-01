@@ -1,0 +1,325 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://example.com/root.json",
+  "type": "object",
+  "title": "The Root Schema",
+  "required": [
+    "ws"
+  ],
+  "properties": {
+    "ws": {
+      "$id": "#/properties/ws",
+      "type": "object",
+      "title": "The Ws Schema",
+      "required": [
+        "inf_resources"
+      ],
+      "properties": {
+        "inf_resources": {
+          "$id": "#/properties/ws/properties/inf_resources",
+          "type": "array",
+          "title": "The Inf_resources Schema",
+          "items": {
+            "$id": "#/properties/ws/properties/inf_resources/items",
+            "type": "object",
+            "title": "The Items Schema",
+            "required": [
+              "ir_name",
+              "type",
+              "ip",
+              "dbname",
+              "usn",
+              "password",
+              "packages"
+            ],
+            "properties": {
+              "ir_name": {
+                "$id": "#/properties/ws/properties/inf_resources/items/properties/ir_name",
+                "type": "string",
+                "title": "The Ir_name Schema",
+                "default": "",
+                "examples": [
+                  "Veliki set podataka"
+                ],
+                "pattern": "^(.*)$"
+              },
+              "type": {
+                "$id": "#/properties/ws/properties/inf_resources/items/properties/type",
+                "type": "string",
+                "title": "The Type Schema",
+                "default": "",
+                "examples": [
+                  "directories"
+                ],
+                "pattern": "^(.*)$"
+              },
+              "ip": {
+                "$id": "#/properties/ws/properties/inf_resources/items/properties/ip",
+                "type": "string",
+                "title": "The Ip Schema",
+                "default": "",
+                "examples": [
+                  ""
+                ],
+                "pattern": "^(.*)$"
+              },
+              "dbname": {
+                "$id": "#/properties/ws/properties/inf_resources/items/properties/dbname",
+                "type": "string",
+                "title": "The Dbname Schema",
+                "default": "",
+                "examples": [
+                  ""
+                ],
+                "pattern": "^(.*)$"
+              },
+              "usn": {
+                "$id": "#/properties/ws/properties/inf_resources/items/properties/usn",
+                "type": "string",
+                "title": "The Usn Schema",
+                "default": "",
+                "examples": [
+                  ""
+                ],
+                "pattern": "^(.*)$"
+              },
+              "password": {
+                "$id": "#/properties/ws/properties/inf_resources/items/properties/password",
+                "type": "string",
+                "title": "The Password Schema",
+                "default": "",
+                "examples": [
+                  ""
+                ],
+                "pattern": "^(.*)$"
+              },
+              "packages": {
+                "$id": "#/properties/ws/properties/inf_resources/items/properties/packages",
+                "type": "array",
+                "title": "The Packages Schema",
+                "items": {
+                  "$id": "#/properties/ws/properties/inf_resources/items/properties/packages/items",
+                  "type": "object",
+                  "title": "The Items Schema",
+                  "required": [
+                    "pack_name",
+                    "entities",
+                    "relations"
+                  ],
+                  "properties": {
+                    "pack_name": {
+                      "$id": "#/properties/ws/properties/inf_resources/items/properties/packages/items/properties/pack_name",
+                      "type": "string",
+                      "title": "The Pack_name Schema",
+                      "default": "",
+                      "examples": [
+                        "Indeks - sekvencijalne datotek"
+                      ],
+                      "pattern": "^(.*)$"
+                    },
+                    "entities": {
+                      "$id": "#/properties/ws/properties/inf_resources/items/properties/packages/items/properties/entities",
+                      "type": "array",
+                      "title": "The Entities Schema",
+                      "items": {
+                        "$id": "#/properties/ws/properties/inf_resources/items/properties/packages/items/properties/entities/items",
+                        "type": "object",
+                        "title": "The Items Schema",
+                        "required": [
+                          "type",
+                          "name",
+                          "path",
+                          "attributes"
+                        ],
+                        "properties": {
+                          "type": {
+                            "$id": "#/properties/ws/properties/inf_resources/items/properties/packages/items/properties/entities/items/properties/type",
+                            "type": "string",
+                            "title": "The Type Schema",
+                            "default": "",
+                            "examples": [
+                              "ind"
+                            ],
+                            "pattern": "^(.*)$"
+                          },
+                          "name": {
+                            "$id": "#/properties/ws/properties/inf_resources/items/properties/packages/items/properties/entities/items/properties/name",
+                            "type": "string",
+                            "title": "The Name Schema",
+                            "default": "",
+                            "examples": [
+                              "NastavniPredmeti"
+                            ],
+                            "pattern": "^(.*)$"
+                          },
+                          "path": {
+                            "$id": "#/properties/ws/properties/inf_resources/items/properties/packages/items/properties/entities/items/properties/path",
+                            "type": "string",
+                            "title": "The Path Schema",
+                            "default": "",
+                            "examples": [
+                              "res/data/Veliki Set Podataka/Indeks - sekvencijalne datoteke"
+                            ],
+                            "pattern": "^(.*)$"
+                          },
+                          "attributes": {
+                            "$id": "#/properties/ws/properties/inf_resources/items/properties/packages/items/properties/entities/items/properties/attributes",
+                            "type": "array",
+                            "title": "The Attributes Schema",
+                            "items": {
+                              "$id": "#/properties/ws/properties/inf_resources/items/properties/packages/items/properties/entities/items/properties/attributes/items",
+                              "type": "object",
+                              "title": "The Items Schema",
+                              "required": [
+                                "key",
+                                "mend",
+                                "dt",
+                                "pk",
+                                "len"
+                              ],
+                              "properties": {
+                                "key": {
+                                  "$id": "#/properties/ws/properties/inf_resources/items/properties/packages/items/properties/entities/items/properties/attributes/items/properties/key",
+                                  "type": "string",
+                                  "title": "The Key Schema",
+                                  "default": "",
+                                  "examples": [
+                                    "OZNAKA_PLANA"
+                                  ],
+                                  "pattern": "^(.*)$"
+                                },
+                                "mend": {
+                                  "$id": "#/properties/ws/properties/inf_resources/items/properties/packages/items/properties/entities/items/properties/attributes/items/properties/mend",
+                                  "type": "boolean",
+                                  "title": "The Mend Schema",
+                                  "default": false,
+                                  "examples": [
+                                    true
+                                  ]
+                                },
+                                "dt": {
+                                  "$id": "#/properties/ws/properties/inf_resources/items/properties/packages/items/properties/entities/items/properties/attributes/items/properties/dt",
+                                  "type": "string",
+                                  "title": "The Dt Schema",
+                                  "default": "",
+                                  "examples": [
+                                    "TYPE_CHAR"
+                                  ],
+                                  "pattern": "^(.*)$"
+                                },
+                                "pk": {
+                                  "$id": "#/properties/ws/properties/inf_resources/items/properties/packages/items/properties/entities/items/properties/attributes/items/properties/pk",
+                                  "type": "boolean",
+                                  "title": "The Pk Schema",
+                                  "default": false,
+                                  "examples": [
+                                    true
+                                  ]
+                                },
+                                "len": {
+                                  "$id": "#/properties/ws/properties/inf_resources/items/properties/packages/items/properties/entities/items/properties/attributes/items/properties/len",
+                                  "type": "integer",
+                                  "title": "The Len Schema",
+                                  "default": 0,
+                                  "examples": [
+                                    2
+                                  ]
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "relations": {
+                      "$id": "#/properties/ws/properties/inf_resources/items/properties/packages/items/properties/relations",
+                      "type": "array",
+                      "title": "The Relations Schema",
+                      "items": {
+                        "$id": "#/properties/ws/properties/inf_resources/items/properties/packages/items/properties/relations/items",
+                        "type": "object",
+                        "title": "The Items Schema",
+                        "required": [
+                          "name",
+                          "source_table",
+                          "source_keys",
+                          "target_table",
+                          "target_keys"
+                        ],
+                        "properties": {
+                          "name": {
+                            "$id": "#/properties/ws/properties/inf_resources/items/properties/packages/items/properties/relations/items/properties/name",
+                            "type": "string",
+                            "title": "The Name Schema",
+                            "default": "",
+                            "examples": [
+                              "PlanStudijskogPrograma_NastavniPredmeti"
+                            ],
+                            "pattern": "^(.*)$"
+                          },
+                          "source_table": {
+                            "$id": "#/properties/ws/properties/inf_resources/items/properties/packages/items/properties/relations/items/properties/source_table",
+                            "type": "string",
+                            "title": "The Source_table Schema",
+                            "default": "",
+                            "examples": [
+                              "NastavniPredmeti"
+                            ],
+                            "pattern": "^(.*)$"
+                          },
+                          "source_keys": {
+                            "$id": "#/properties/ws/properties/inf_resources/items/properties/packages/items/properties/relations/items/properties/source_keys",
+                            "type": "array",
+                            "title": "The Source_keys Schema",
+                            "items": {
+                              "$id": "#/properties/ws/properties/inf_resources/items/properties/packages/items/properties/relations/items/properties/source_keys/items",
+                              "type": "string",
+                              "title": "The Items Schema",
+                              "default": "",
+                              "examples": [
+                                "OZNAKA_PLANA",
+                                "SIFRA_PREDMETA"
+                              ],
+                              "pattern": "^(.*)$"
+                            }
+                          },
+                          "target_table": {
+                            "$id": "#/properties/ws/properties/inf_resources/items/properties/packages/items/properties/relations/items/properties/target_table",
+                            "type": "string",
+                            "title": "The Target_table Schema",
+                            "default": "",
+                            "examples": [
+                              "PlanStudijskogPrograma"
+                            ],
+                            "pattern": "^(.*)$"
+                          },
+                          "target_keys": {
+                            "$id": "#/properties/ws/properties/inf_resources/items/properties/packages/items/properties/relations/items/properties/target_keys",
+                            "type": "array",
+                            "title": "The Target_keys Schema",
+                            "items": {
+                              "$id": "#/properties/ws/properties/inf_resources/items/properties/packages/items/properties/relations/items/properties/target_keys/items",
+                              "type": "string",
+                              "title": "The Items Schema",
+                              "default": "",
+                              "examples": [
+                                "OZNAKA_PLANA",
+                                "SIFRA_PREDMETA"
+                              ],
+                              "pattern": "^(.*)$"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

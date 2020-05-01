@@ -1,0 +1,327 @@
+G010Inzenjer gradjevinarstva                                                                                                                                        0
+II00Industrijskog inzenjerstva i menadzmenta  i menadzmenta                                                                                                         0
+M000MaSinski inzenjer                                                                                                                                               0
+A010Arhitektura                                                                     Diplomirani inzenjer arhitekture                                                0
+AA00Arhitektura                                                                     Diplomirani inzenjer arhitekture                                                0
+AAR0Arhitektura                                                                     Diplomirani inzenjer arhitekture                                                0
+AAS0Arhitektura                                                                     Diplomirani inzenjer arhitekture                                                0
+A0  Arhitektura i urbanizam                                                         Diplomirani inzenjer arhitekture i urbanizma                                    0
+AA01Arhitektura i urbanizam                                                         Diplomirani inzenjer arhitekture-master                                         0
+AA10Arhitektura i urbanizam                                                         Diplomirani inzenjer arhitekture-master                                         0
+EE70Elektroenergetika                                                               Diplomirani inzenjer elektotehnike i racunarstva                                0
+ERU0Elektrotehnika i racunarstvo                                                    Diplomirani inzenjer elektrotehnike                                             0
+EEP0Elektroenergetika                                                               Diplomirani inzenjer elektrotehnike i racunarstva                               0
+ESI0Elektroenergetika                                                               Diplomirani inzenjer elektrotehnike i racunarstva                               0
+ETE2Elektronika i telekomunikacije                                                  Diplomirani inzenjer elektrotehnike i racunarstva                               0
+EUP0Racunarstvo i upravljanje sistemima                                             Diplomirani inzenjer elektrotehnike i racunarstva                               0
+EE10Energetika,elektronika i telekomunikacije                                       Diplomirani inzenjer elektrotehnike i racunarstva                               0
+EE20Racunarstvo i automatika                                                        Diplomirani inzenjer elektrotehnike i racunarstva                               0
+EE2ERacunarstvo i automatika                                                        Diplomirani inzenjer elektrotehnike i racunarstva                               0
+EE30Elektroenergetika                                                               Diplomirani inzenjer elektrotehnike i racunarstva                               0
+EE40Energetika, elektronika i telekomunikacije                                      Diplomirani inzenjer elektrotehnike i racunarstva                               0
+EE50Energetika, elektronika i telekomunikacije                                      Diplomirani inzenjer elektrotehnike i racunarstva                               0
+EE60Elektroenergetika                                                               Diplomirani inzenjer elektrotehnike i racunarstva                               0
+EEM0Energetika,elektronika i telekomunikacije                                       Diplomirani inzenjer elektrotehnike i racunarstva                               0
+EEM1Energetika,elektronika i telekomunikacije                                       Diplomirani inzenjer elektrotehnike i racunarstva                               0
+EEM2Energetika, elektronika i telekomunikacije                                      Diplomirani inzenjer elektrotehnike i racunarstva                               0
+EEM3Energetika,elektronika i telekomunikacije                                       Diplomirani inzenjer elektrotehnike i racunarstva                               0
+EEM4Energetika,elektronika i telekomunikacije                                       Diplomirani inzenjer elektrotehnike i racunarstva                               0
+EET2Energetika, elektronika i telekomunikacije                                      Diplomirani inzenjer elektrotehnike i racunarstva                               0
+EIN0Elektronika i telekomunikacije                                                  Diplomirani inzenjer elektrotehnike i racunarstva                               0
+ERI0Racunarstvo i automatika                                                        Diplomirani inzenjer elektrotehnike i racunarstva                               0
+ERI2Primenjene racunarske nauke i informatika                                       Diplomirani inzenjer elektrotehnike i racunarstva                               0
+ERN1Racunarstvo i automatika                                                        Diplomirani inzenjer elektrotehnike i racunarstva                               0
+ERN2Racunarstvo i automatika                                                        Diplomirani inzenjer elektrotehnike i racunarstva                               0
+ERN3Racunarstvo i automatika                                                        Diplomirani inzenjer elektrotehnike i racunarstva                               0
+ERN4Racunarstvo i automatika                                                        Diplomirani inzenjer elektrotehnike i racunarstva                               0
+ERT0Racunarstvo i upravljanje sistemima                                             Diplomirani inzenjer elektrotehnike i racunarstva                               0
+ERT2Racunarska tehnika i racunarske komunikacije                                    Diplomirani inzenjer elektrotehnike i racunarstva                               0
+ERTTRacunarstvo i automatika                                                        Diplomirani inzenjer elektrotehnike i racunarstva                               0
+EE80Mikroracunarska elektronika                                                     Diplomirani inzenjer elektrotehnike i racunarstva                               0
+EE81Mikroracunarska elektronika                                                     Diplomirani inzenjer elektrotehnike i racunarstva                               0
+EE82Energetika,elektronika i telekomunikacije                                       Diplomirani inzenjer elektrotehnike i racunarstva                               0
+EE90Komunikacione tehnologije i obrada sisgnala                                     Diplomirani inzenjer elektrotehnike i racunarstva                               0
+EE91Energetika, elektronika i telekomunikacije                                      Diplomirani inzenjer elektrotehnike i racunarstva                               0
+EE92Energetika, elektronika i telekomunikacije                                      Diplomirani inzenjer elektrotehnike i racunarstva                               0
+EE93Instrumentacija i merenja                                                       Diplomirani inzenjer elektrotehnike i racunarstva                               0
+EEE0Energetika,elektronika i telekomunikacije                                       Diplomirani inzenjer elektrotehnike i racunarstva                               0
+EEE1Energetika,elektronika i telekomunikacije                                       Diplomirani inzenjer elektrotehnike i racunarstva                               0
+EEE2Elektronika i telekomunikacije                                                  Diplomirani inzenjer elektrotehnike i racunarstva                               0
+EEE3Energetika,elektronika i telekomunikacije                                       Diplomirani inzenjer elektrotehnike i racunarstva                               0
+EEI0Energetika,elektronika i telekomunikacije                                       Diplomirani inzenjer elektrotehnike i racunarstva                               0
+EEI1Energetika,elektronika i telekomunikacije                                       Diplomirani inzenjer elektrotehnike i racunarstva                               0
+EEI2Energetika,elektronika i telekomunikacije                                       Diplomirani inzenjer elektrotehnike i racunarstva                               0
+EEK0Energetika,elektronika i telekomunikacije                                       Diplomirani inzenjer elektrotehnike i racunarstva                               0
+EEK1Energetika,elektronika i telekomunikacije                                       Diplomirani inzenjer elektrotehnike i racunarstva                               0
+EEK2Energetika,elektronika i telekomunikacije                                       Diplomirani inzenjer elektrotehnike i racunarstva                               0
+E010Elektrotehnika i racunarstvo                                                    Diplomirani inzenjer elektrotehnike i racunarstva                               0
+EAU0Racunarstvo i automatika                                                        Diplomirani inzenjer elektrotehnike i racunarstva                               0
+E1  Energetika, elektronika i telekomunikacije                                      Diplomirani inzenjer elektrotehnike i racunarstva                               0
+E2  Racunarstvo i automatika                                                        Diplomirani inzenjer elektrotehnike i racunarstva                               0
+E310Energetika                                                                      Diplomirani inzenjer elektrotehnike i racunarstva                               0
+E320Energetika                                                                      Diplomirani inzenjer elektrotehnike i racunarstva                               0
+E330Elektroenergetika                                                               Diplomirani inzenjer elektrotehnike i racunarstva                               0
+E410Elektronika i telekomunikacije                                                  Diplomirani inzenjer elektrotehnike i racunarstva                               0
+E420Elektronika i telekomunikacije                                                  Diplomirani inzenjer elektrotehnike i racunarstva                               0
+E430Elektrotehnika i racunarstvo                                                    Diplomirani inzenjer elektrotehnike i racunarstva                               0
+E440Elektronika i telekomunikacije                                                  Diplomirani inzenjer elektrotehnike i racunarstva                               0
+E450Elektronika i telekomunikacije                                                  Diplomirani inzenjer elektrotehnike i racunarstva                               0
+E460Elektronika i telekomunikacije                                                  Diplomirani inzenjer elektrotehnike i racunarstva                               0
+E510Automatika i racunarska tehnika                                                 Diplomirani inzenjer elektrotehnike i racunarstva                               0
+E520Elektrotehnicke struke i racunarstvo                                            Diplomirani inzenjer elektrotehnike i racunarstva                               0
+E530Merna tehnika                                                                   Diplomirani inzenjer elektrotehnike i racunarstva                               0
+E540Merna tehnika                                                                   Diplomirani inzenjer elektrotehnike i racunarstva                               0
+E550Racunarska tehnika i upravljanje sistemima                                      Diplomirani inzenjer elektrotehnike i racunarstva                               0
+E570Racunarska tehnika i upravljanje sistemima                                      Diplomirani inzenjer elektrotehnike i racunarstva                               0
+REE1Energetika,elektronika i telekomunikacije                                       Diplomirani inzenjer elektrotehnike i racunarstva                               0
+REK1Energetika,elektronika i telekomunikacije                                       Diplomirani inzenjer elektrotehnike i racunarstva                               0
+REM3Energetika, elektronika i telekomunikacije                                      Diplomirani inzenjer elektrotehnike i racunarstva - Master                      0
+REM4Energetika, elektronika i telekomunikacije                                      Diplomirani inzenjer elektrotehnike i racunarstva - Master                      0
+RRE1Elektrotehnika i racunarstvo                                                    Diplomirani inzenjer elektrotehnike i racunarstva - Master                      0
+RRT1Elektrotehnika i racunarstvo                                                    Diplomirani inzenjer elektrotehnike i racunarstva - Master                      0
+OGI0Geodezija i geomatika                                                           Diplomirani inzenjer geodezije i geomatike                                      0
+OGI1Geodezija i geomatika                                                           Diplomirani inzenjer geodezije i geomatike                                      0
+OGI2Geodezija i geomatika                                                           Diplomirani inzenjer geodezije i geomatike                                      0
+JGI1Geodezija i geomatika                                                           Diplomirani inzenjer geodezije i geomatike                                      0
+JGI2Geodezija i geomatika                                                           Diplomirani inzenjer geodezije i geomatike                                      0
+G030Industrijska gradnja                                                            Diplomirani inzenjer gradjevinarstva                                            0
+GAA0Gradjevinarstvo                                                                 Diplomirani inzenjer gradjevinarstva                                            0
+GAA3Gradjevinarstvo                                                                 Diplomirani inzenjer gradjevinarstva                                            0
+GG00Gradjevinarstvo                                                                 Diplomirani inzenjer gradjevinarstva                                            0
+GG01Gradjevinarstvo                                                                 Diplomirani inzenjer gradjevinarstva                                            0
+GG02Gradjevinarstvo                                                                 Diplomirani inzenjer gradjevinarstva                                            0
+GG03Gradjevinarstvo                                                                 Diplomirani inzenjer gradjevinarstva                                            0
+GG04Gradjevinarstvo                                                                 Diplomirani inzenjer gradjevinarstva                                            0
+GG20Gradjevinarstvo                                                                 Diplomirani inzenjer gradjevinarstva                                            0
+GG30Gradjevinarstvo                                                                 Diplomirani inzenjer gradjevinarstva                                            0
+GG40Gradjevinarstvo                                                                 Diplomirani inzenjer gradjevinarstva                                            0
+GGG0Gradjevinarstvo                                                                 Diplomirani inzenjer gradjevinarstva                                            0
+GGM0Gradjevinarstvo                                                                 Diplomirani inzenjer gradjevinarstva                                            0
+GGR0Gradjevinarstvo                                                                 Diplomirani inzenjer gradjevinarstva                                            0
+GGS0Gradjevinarstvo                                                                 Diplomirani inzenjer gradjevinarstva                                            0
+GHT0Gradjevinarstvo                                                                 Diplomirani inzenjer gradjevinarstva                                            0
+GPS0Gradjevinarstvo                                                                 Diplomirani inzenjer gradjevinarstva                                            0
+GPSSGradjevinarstvo                                                                 Diplomirani inzenjer gradjevinarstva                                            0
+G0  Gradjevinarstvo                                                                 Diplomirani inzenjer gradjevinarstva                                            0
+GK00Gradjevinarstvo                                                                 Diplomirani inzenjer gradjevinarstva                                            0
+YG01Gradjevinarstvo                                                                 Diplomirani inzenjer gradjevinarstva                                            0
+YG02Gradjevinarstvo                                                                 Diplomirani inzenjer gradjevinarstva                                            0
+YG03Gradjevinarstvo                                                                 Diplomirani inzenjer gradjevinarstva                                            0
+YG04Gradjevinarstvo                                                                 Diplomirani inzenjer gradjevinarstva                                            0
+F0  Graficko inzenjerstvo i dizajn                                                  Diplomirani inzenjer grafickog inzenjerstva i dizajna                           0
+FF00Graficko inzenjerstvo i dizajn                                                  Diplomirani inzenjer grafickog inzenjerstva i dizajna                           0
+FF10Graficko inzenjerstvo i dizajn                                                  Diplomirani inzenjer grafickog inzenjerstva i dizajna                           0
+FF20Graficko inzenjerstvo i dizajn                                                  Diplomirani inzenjer grafickog inzenjerstva i dizajna - Master                  0
+LF00Graficko inzenjerstvo i dizajn                                                  Diplomirani inzenjer grafickog inzenjerstva i dizajna - Master                  0
+I1  Industrijsko inzenjerstvo i menadzment                                          Diplomirani inzenjer industrijskih sistema i menadzmenta                        0
+I1I0Industrijski sistemi                                                            Diplomirani inzenjer industrijskog inzenjerstva                                 0
+I2I0Industrijski sistemi                                                            Diplomirani inzenjer industrijskog inzenjerstva                                 0
+I3I0Industrijski sistemi                                                            Diplomirani inzenjer industrijskog inzenjerstva                                 0
+I4I0Industrijski sistemi                                                            Diplomirani inzenjer industrijskog inzenjerstva                                 0
+II11Industrijsko inzenjerstvo i menadzment                                          Diplomirani inzenjer industrijskog inzenjerstva                                 0
+II12Industrijsko inzenjerstvo i menadzment                                          Diplomirani inzenjer industrijskog inzenjerstva                                 0
+II13Industrijsko inzenjerstvo i menadzment                                          Diplomirani inzenjer industrijskog inzenjerstva                                 0
+II14Industrijsko inzenjerstvo i menadzment                                          Diplomirani inzenjer industrijskog inzenjerstva                                 0
+II15Industrijsko inzenjerstvo i menadzment                                          Diplomirani inzenjer industrijskog inzenjerstva                                 0
+III1Industrijsko inzenjerstvo i menadzment                                          Diplomirani inzenjer industrijskog inzenjerstva                                 0
+III2Industrijsko inzenjerstvo i menadzment                                          Diplomirani inzenjer industrijskog inzenjerstva                                 0
+III3Industrijsko inzenjerstvo i menadzment                                          Diplomirani inzenjer industrijskog inzenjerstva                                 0
+III4Industrijsko inzenjerstvo i menadzment                                          Diplomirani inzenjer industrijskog inzenjerstva                                 0
+III5Industrijsko inzenjerstvo i menadzment                                          Diplomirani inzenjer industrijskog inzenjerstva                                 0
+III6Industrijsko inzenjerstvo i menadzment                                          Diplomirani inzenjer industrijskog inzenjerstva                                 0
+III7Industrijsko inzenjerstvo i menadzment                                          Diplomirani inzenjer industrijskog inzenjerstva                                 0
+III8Industrijsko inzenjerstvo i menadzment                                          Diplomirani inzenjer industrijskog inzenjerstva                                 0
+III9Industrijsko inzenjerstvo i menadzment                                          Diplomirani inzenjer industrijskog inzenjerstva                                 0
+II30Industrijski sistemi                                                            Diplomirani inzenjer industrijskog inzenjerstva                                 0
+II31Industrijsko inzenjerstvo                                                       Diplomirani inzenjer industrijskog inzenjerstva                                 0
+II32Industrijsko inzenjerstvo                                                       Diplomirani inzenjer industrijskog inzenjerstva                                 0
+II33Industrijsko inzenjerstvo                                                       Diplomirani inzenjer industrijskog inzenjerstva                                 0
+II34Industrijsko inzenjerstvo                                                       Diplomirani inzenjer industrijskog inzenjerstva                                 0
+II40Industrijski sistemi                                                            Diplomirani inzenjer industrijskog inzenjerstva                                 0
+II50Industrijski sistemi                                                            Diplomirani inzenjer industrijskog inzenjerstva                                 0
+II60Inzenjerski menadzment                                                          Diplomirani inzenjer industrijskog inzenjerstva                                 0
+II66Industrijski sistemi                                                            Diplomirani inzenjer industrijskog inzenjerstva                                 0
+Z0  Inzenjerstvo zastite zivotne sredine                                            Diplomirani inzenjer inzenjerstva zastite zivotne sredine                       0
+Z1  Inzenjerstvo zastite zivotne sredine                                            Diplomirani inzenjer inzenjerstva zastite zivotne sredine                       0
+ZZ00Inzenjerstvo zastite zivotne sredine                                            Diplomirani inzenjer inzenjerstva zastite zivotne sredine                       0
+ZZ01Inzenjerstvo zastite zivotne sredine                                            Diplomirani inzenjer inzenjerstva zastite zivotne sredine                       0
+M2  Mehanizacija i konstrukciono masinstvo                                          Diplomirani inzenjer masinstva                                                  0
+M1  Proizvodno masinstvo                                                            Diplomirani inzenjer masinstva                                                  0
+M3  Energetika i procesna tehnika                                                   Diplomirani inzenjer masinstva                                                  0
+M4  Tehnicka mehanika i dizajn                                                      Diplomirani inzenjer masinstva                                                  0
+MM60Energetika i procesna tehnika                                                   Diplomirani inzenjer masinstva                                                  0
+MM61Energetika i procesna tehnika                                                   Diplomirani inzenjer masinstva                                                  0
+MM62Energetika i procesna tehnika                                                   Diplomirani inzenjer masinstva                                                  0
+MM00Proizvodno masinstvo                                                            Diplomirani inzenjer masinstva                                                  0
+MM20Mehanizacija i konstrukciono masinstvo                                          Diplomirani inzenjer masinstva                                                  0
+MM40Tehnicka mehanika i dizajn u tehnici                                            Diplomirani inzenjer masinstva                                                  0
+MP00Proizvodno masinstvo                                                            Diplomirani inzenjer masinstva                                                  0
+MP01Proizvodno masinstvo                                                            Diplomirani inzenjer masinstva                                                  0
+MP02Proizvodno masinstvo                                                            Diplomirani inzenjer masinstva                                                  0
+MP03Proizvodno masinstvo                                                            Diplomirani inzenjer masinstva                                                  0
+MM50Energetski menadzment                                                           Diplomirani inzenjer masinstva - master                                         0
+MM22Mehanizacija i konstrukciono masinstvo                                          Diplomirani inzenjer masinstva - master                                         0
+DM61Energetika i procesna tehnika                                                   Diplomirani inzenjer masinstva - Master                                         0
+DM62Energetika i procesna tehnika                                                   Diplomirani inzenjer masinstva - Master                                         0
+H0  Mehatronika                                                                     Diplomirani inzenjer mehatronike                                                0
+HH00Mehatronika                                                                     Diplomirani inzenjer mehatronike                                                0
+HH01Mehatronika                                                                     Diplomirani inzenjer mehatronike                                                0
+HH02Mehatronika                                                                     Diplomirani inzenjer mehatronike                                                0
+HH10Mehatronika                                                                     Diplomirani inzenjer mehatronike                                                0
+HH20Mehatronika                                                                     Diplomirani inzenjer mehatronike                                                0
+BBI2Industrijsko inzenjerstvo i inzenjerski menadzment                              Diplomirani inzenjer menadzment - master                                        0
+BBI3Industrijsko inzenjerstvo i inzenjerski menadzment                              Diplomirani inzenjer menadzment - master                                        0
+BBI4Industrijsko inzenjerstvo i inzenjerski menadzment                              Diplomirani inzenjer menadzment - master                                        0
+BBI5Industrijsko inzenjerstvo i inzenjerski menadzment                              Diplomirani inzenjer menadzment - master                                        0
+BB16Inzenjerski menadzment                                                          Diplomirani inzenjer menadzmenta                                                0
+BI21Inzenjerski menadzment                                                          Diplomirani inzenjer menadzmenta                                                0
+BI22Inzenjerski menadzment                                                          Diplomirani inzenjer menadzmenta                                                0
+BI23Inzenjerski menadzment                                                          Diplomirani inzenjer menadzmenta                                                0
+BI24Inzenjerski menadzment                                                          Diplomirani inzenjer menadzmenta                                                0
+BI25Inzenjerski menadzment                                                          Diplomirani inzenjer menadzmenta                                                0
+BI26Inzenjerski menadzment                                                          Diplomirani inzenjer menadzmenta                                                0
+BI27Inzenjerski menadzment                                                          Diplomirani inzenjer menadzmenta                                                0
+BI28Inzenjerski menadzment                                                          Diplomirani inzenjer menadzmenta                                                0
+BI29Inzenjerski menadzment                                                          Diplomirani inzenjer menadzmenta                                                0
+I5I0Inzenjerski menadzment                                                          Diplomirani inzenjer menadzmenta                                                0
+I6I0Inzenjerski menadzment                                                          Diplomirani inzenjer menadzmenta                                                0
+I7I0Inzenjerski menadzment                                                          Diplomirani inzenjer menadzmenta                                                0
+I8I0Inzenjerski menadzment                                                          Diplomirani inzenjer menadzmenta                                                0
+I9I0Inzenjerski menadzment                                                          Diplomirani inzenjer menadzmenta                                                0
+I2  Industrijsko inzenjerstvo i menadzment                                          Diplomirani inzenjer menadzmenta                                                0
+I10IInzenjerski menadzment                                                          Diplomirani inzenjer menadzmenta                                                0
+I11IInzenjerski menadzment                                                          Diplomirani inzenjer menadzmenta                                                0
+II70Inzenjerski menadzment                                                          Diplomirani inzenjer menadzmenta                                                0
+II80Inzenjerski menadzment                                                          Diplomirani inzenjer menadzmenta                                                0
+II90Inzenjerski menadzment                                                          Diplomirani inzenjer menadzmenta                                                0
+II21Inzenjerski menadzment                                                          Diplomirani inzenjer menadzmenta                                                0
+II22Inzenjerski menadzment                                                          Diplomirani inzenjer menadzmenta                                                0
+II23Inzenjerski menadzment                                                          Diplomirani inzenjer menadzmenta                                                0
+II24Inzenjerski menadzment                                                          Diplomirani inzenjer menadzmenta                                                0
+II25Inzenjerski menadzment                                                          Diplomirani inzenjer menadzmenta                                                0
+II26Inzenjerski menadzment                                                          Diplomirani inzenjer menadzmenta                                                0
+II27Inzenjerski menadzment                                                          Diplomirani inzenjer menadzmenta                                                0
+II28Inzenjerski menadzment                                                          Diplomirani inzenjer menadzmenta                                                0
+II29Inzenjerski menadzment                                                          Diplomirani inzenjer menadzmenta                                                0
+BM50Energetski menadzment                                                           Diplomirani inzenjer menadzmenta - master                                       0
+BBI1Industrijsko inzenjerstvo i inzenjerski menadzment                              Diplomirani inzenjer menadzmenta - master                                       0
+BBI6Industrijsko inzenjerstvo i inzenjerski menadzment                              Diplomirani inzenjer menadzmenta - master                                       0
+BBI7Industrijsko inzenjerstvo i inzenjerski menadzment                              Diplomirani inzenjer menadzmenta - master                                       0
+XNITIndustrijsko inzenjerstvo - napredne inzenjerske tehnologije                    Diplomirani inzenjer menadzmenta - master                                       0
+VOM1Primenjena matematika                                                           Diplomirani inzenjer primenjene matematike - master                             0
+VV00Primenjena matematika                                                           Diplomirani inzenjer primenjene matematike - master                             0
+S010Drumski saobracaj                                                               Diplomirani inzenjer saobracaja                                                 0
+S020Vodni saobracaja                                                                Diplomirani inzenjer saobracaja                                                 0
+S1  Saobracaj                                                                       Diplomirani inzenjer saobracaja                                                 0
+S2  Saobracaj                                                                       Diplomirani inzenjer saobracaja                                                 0
+S2D0Drumski i gradski saobracaj                                                     Diplomirani inzenjer saobracaja                                                 0
+S2V0Vodni saobracaj                                                                 Diplomirani inzenjer saobracaja                                                 0
+S3  Saobracaj                                                                       Diplomirani inzenjer saobracaja                                                 0
+S3D0Drumski i gradski saobracaj                                                     Diplomirani inzenjer saobracaja                                                 0
+S3V0Vodni saobracaj                                                                 Diplomirani inzenjer saobracaja                                                 0
+S4  Saobracaj                                                                       Diplomirani inzenjer saobracaja                                                 0
+SPS0Saobracaj                                                                       Diplomirani inzenjer saobracaja                                                 0
+SS00Saobracaj i transport                                                           Diplomirani inzenjer saobracaja                                                 0
+SS01Postanski saobracaj i telekomunikacije                                          Diplomirani inzenjer saobracaja                                                 0
+SS20xxx                                                                             Diplomirani inzenjer saobracaja                                                 0
+SS30xxx                                                                             Diplomirani inzenjer saobracaja                                                 0
+SS40Zeleznicki saobracaj                                                            Diplomirani inzenjer saobracaja                                                 0
+SS50Saobracaj                                                                       Diplomirani inzenjer saobracaja                                                 0
+SS60Vodni saobracaj                                                                 Diplomirani inzenjer saobracaja                                                 0
+SS70Postanski saobracaj i telekomunikacije                                          Diplomirani inzenjer saobracaja                                                 0
+SSA0xxx                                                                             Diplomirani inzenjer saobracaja                                                 0
+SSD0Drumski i gradski saobracaj                                                     Diplomirani inzenjer saobracaja                                                 0
+SSP0Saobracaj                                                                       Diplomirani inzenjer saobracaja                                                 0
+SSV0Vodni saobracaj                                                                 Diplomirani inzenjer saobracaja                                                 0
+TS00Saobracaj                                                                       Diplomirani inzenjer saobracaja - master                                        0
+TS01Saobracaj                                                                       Diplomirani inzenjer saobracaja - master                                        0
+NN00Inzenjerstvo zastite zivotne sredine i zastite na radu                          Diplomirani inzenjer zastite zivotne sredine                                    0
+MM23Mehanizacija i konstrukciono masinstvo                                          Diplomirani masinski inzenjer                                                   0
+MM25Mehanizacija i konstrukciono masinstvo                                          Diplomirani masinski inzenjer                                                   0
+MM30Mehanizacija i konstrukciono masinstvo                                          Diplomirani masinski inzenjer                                                   0
+MAA0Masinstvo                                                                       Diplomirani masinski inzenjer                                                   0
+MBB0Masinstvo                                                                       Diplomirani masinski inzenjer                                                   0
+MP10Proizvodno masinstvo                                                            Diplomirani masinski inzenjer                                                   0
+MP11Proizvodno masinstvo                                                            Diplomirani masinski inzenjer                                                   0
+MP20Proizvodno masinstvo                                                            Diplomirani masinski inzenjer                                                   0
+MP21Proizvodno masinstvo                                                            Diplomirani masinski inzenjer                                                   0
+MP30Proizvodno masinstvo                                                            Diplomirani masinski inzenjer                                                   0
+MP31Proizvodno masinstvo                                                            Diplomirani masinski inzenjer                                                   0
+MPO0Proizvodno masinstvo                                                            Diplomirani masinski inzenjer                                                   0
+MPV0Proizvodno masinstvo                                                            Diplomirani masinski inzenjer                                                   0
+MMA0Energetika i procesna tehnika                                                   Diplomirani masinski inzenjer                                                   0
+MMC0Energetika i procesna tehnika                                                   Diplomirani masinski inzenjer                                                   0
+MME0Energetika i procesna tehnika                                                   Diplomirani masinski inzenjer                                                   0
+MME1Energetika i procesna tehnika                                                   Diplomirani masinski inzenjer                                                   0
+MME2Energetika i procesna tehnika                                                   Diplomirani masinski inzenjer                                                   0
+MME3Energetika i procesna tehnika                                                   Diplomirani masinski inzenjer                                                   0
+MME4Energetika i procesna tehnika                                                   Diplomirani masinski inzenjer                                                   0
+MME5Energetika i procesna tehnika                                                   Diplomirani masinski inzenjer                                                   0
+MMG0Energetika i procesna tehnika                                                   Diplomirani masinski inzenjer                                                   0
+MMH0Mehanizacija i konstrukcino masinstvo                                           Diplomirani masinski inzenjer                                                   0
+MMK0Mehanizacija i konstrukciono masinstvo                                          Diplomirani masinski inzenjer                                                   0
+MML0Energetika i procesna tehnika                                                   Diplomirani masinski inzenjer                                                   0
+MMM0Mehanizacija i konstrukciono masinstvo                                          Diplomirani masinski inzenjer                                                   0
+MMM1Mehanizacija i konstrukciono masinstvo                                          Diplomirani masinski inzenjer                                                   0
+MMM2Mehanizacija i konstrukciono masinstvo                                          Diplomirani masinski inzenjer                                                   0
+MMN0Mehanizacija i konstrukciono masinstvo                                          Diplomirani masinski inzenjer                                                   0
+MMP0Mehanizacija i konstrukciono masinstvo                                          Diplomirani masinski inzenjer                                                   0
+MMT0Tehnicka mehanika                                                               Diplomirani masinski inzenjer                                                   0
+MMT1Tehnicka mehanika                                                               Diplomirani masinski inzenjer                                                   0
+MMV0Mehanizacija i konstrukciono masinstvo                                          Diplomirani masinski inzenjer                                                   0
+MMX0Energetika i procesna tehnika                                                   Diplomirani masinski inzenjer                                                   0
+M400Masinstvo                                                                       Diplomirani masinski inzenjer                                                   0
+M430Masinstvo                                                                       Diplomirani masinski inzenjer                                                   0
+M810Masinstvo                                                                       Diplomirani masinski inzenjer                                                   0
+M820Masinstvo                                                                       Diplomirani masinski inzenjer                                                   0
+M860Masinstvo                                                                       Diplomirani masinski inzenjer                                                   0
+M300Masinstvo                                                                       Diplomirani masinski inzenjer                                                   0
+M200Masinstvo                                                                       Diplomirani masinski inzenjer                                                   0
+M280Masinstvo                                                                       Diplomirani masinski inzenjer                                                   0
+M290Masinstvo                                                                       Diplomirani masinski inzenjer                                                   0
+M010Masinstvo                                                                       Diplomirani masinski inzenjer                                                   0
+M020Masinstvo                                                                       Diplomirani masinski inzenjer                                                   0
+M030Masinstvo                                                                       Diplomirani masinski inzenjer                                                   0
+M040Masinstvo                                                                       Diplomirani masinski inzenjer                                                   0
+M060Masinstvo                                                                       Diplomirani masinski inzenjer                                                   0
+M070Masinstvo                                                                       Diplomirani masinski inzenjer                                                   0
+M080Masinstvo                                                                       Diplomirani masinski inzenjer                                                   0
+M090Masinstvo                                                                       Diplomirani masinski inzenjer                                                   0
+M110Masinstvo                                                                       Diplomirani masinski inzenjer                                                   0
+M120Masinstvo                                                                       Diplomirani masinski inzenjer                                                   0
+M130Masinstvo                                                                       Diplomirani masinski inzenjer                                                   0
+M140Masinstvo                                                                       Diplomirani masinski inzenjer                                                   0
+M150Masinstvo                                                                       Diplomirani masinski inzenjer                                                   0
+M160Masinstvo                                                                       Diplomirani masinski inzenjer                                                   0
+M170Masinstvo                                                                       Diplomirani masinski inzenjer                                                   0
+M180Masinstvo                                                                       Diplomirani masinski inzenjer                                                   0
+M190Masinstvo                                                                       Diplomirani masinski inzenjer                                                   0
+DM20Mehanizacija i konstrukciono masinstvo                                          Diplomirani masinski inzenjer - Master                                          0
+DM23Mehanizacija i konstrukciono masinstvo                                          Diplomirani masinski inzenjer - Master                                          0
+DM25Mehanizacija i konstrukciono masinstvo                                          Diplomirani masinski inzenjer - Master                                          0
+DM40Tehnicka mehanika                                                               Diplomirani masinski inzenjer - Master                                          0
+DM60Energetika i procesna tehnika                                                   Diplomirani masinski inzenjer - Master                                          0
+DP01Proizvodno masinstvo                                                            Diplomirani masinski inzenjer - Master                                          0
+DP02Proizvodno masinstvo                                                            Diplomirani masinski inzenjer - Master                                          0
+DP03Proizvodno masinstvo                                                            Diplomirani masinski inzenjer - Master                                          0
+PRP0Arhitektura i urbanizam                                                         Dipolmirani inzenjer regionalne politike i razvoja - master                     0
+S220Inzinjer saobraca                                                               Drumski saobracaj                                                               0
+EE00Inzenjer elektrotehnike i racunarstva                                           Elektronika                                                                     0
+EEL0Elektrotehnika i racunarstvo                                                    Elektrotehnika i racunarstvo                                                    0
+EEO0Elektrotehnike i racunarstva                                                    Industrijska elektronika                                                        0
+ESE0Inzenjer elektrotehnike i racunarstva                                           Industrijska energetika                                                         0
+III0Industrijsko inzenjerstvo i menadzment                                          Industrijsko inzenjerstvo                                                       0
+II10Industrijsko inzenjerstvo i menadzment                                          Industrijsko inzewnjerstvo i menadzment                                         0
+II20Industrijsko inzenjerstvo i menadzment                                          Inzenjerski menadzment                                                          0
+M890Nepoznat                                                                        Nepoznat                                                                        0
+GKO0Nepoznat                                                                        Nepoznat                                                                        0
+GIG0Nepoznat                                                                        Nepoznat                                                                        0
+CE00Elektroenergetika                                                               Strukovni inzenjer elektroenergetike                                            0
+QG00Gradjevinarstvo                                                                 Strukovni inzenjer gradjevinarstva                                              0
+KS00Saobracaj i transport                                                           Strukovni inzenjer saobracaja                                                   0
+M450xx                                                                              xx                                                                              0
+M100xx                                                                              xx                                                                              0
+M050xx                                                                              xx                                                                              0
+E820xx                                                                              xx                                                                              0
+E030xx                                                                              xx                                                                              0
+EET0xxx                                                                             xxx                                                                             0

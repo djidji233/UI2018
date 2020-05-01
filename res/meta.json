@@ -1,0 +1,895 @@
+{
+	"ws": {
+		"inf_resources": [
+			{
+				"ir_name": "Veliki set podataka",
+				"type": "directories",
+				"ip": "",
+				"dbname": "",
+				"usn": "",
+				"password": "",
+				"packages": [
+					{
+						"pack_name": "Indeks - sekvencijalne datotek",
+						"entities": [
+							{
+								"type": "ind",
+								"name": "NastavniPredmeti",
+								"path": "res/data/Veliki Set Podataka/Indeks - sekvencijalne datoteke",
+								"attributes": [
+									{
+										"key": "OZNAKA_PLANA",
+										"mend": true,
+										"dt": "TYPE_CHAR",
+										"pk": true,
+										"len": 2
+									},
+									{
+										"key": "SIFRA_PREDMETA",
+										"mend": true,
+										"dt": "TYPE_VARCHAR",
+										"pk": true,
+										"len": 5
+									},
+									{
+										"key": "NAZIV_PREDMETA",
+										"mend": true,
+										"dt": "TYPE_VARCHAR",
+										"pk": false,
+										"len": 80
+									},
+									{
+										"key": "TRAJE_SEMESTARA",
+										"mend": true,
+										"dt": "TYPE_NUMERIC",
+										"pk": false,
+										"len": 2
+									},
+									{
+										"key": "BROJ_KREDITA",
+										"mend": true,
+										"dt": "TYPE_NUMERIC",
+										"pk": false,
+										"len": 3
+									}
+								]
+							},
+							{
+								"type": "ind",
+								"name": "PlanStudijskogPrograma",
+								"path": "res/data/Veliki Set Podataka/Indeks - sekvencijalne datoteke",
+								"attributes": [
+									{
+										"key": "OZNAKA_PROGRAMA",
+										"mend": true,
+										"dt": "TYPE_CHAR",
+										"pk": true,
+										"len": 4
+									},
+									{
+										"key": "OZNAKA_PLANA",
+										"mend": true,
+										"dt": "TYPE_CHAR",
+										"pk": true,
+										"len": 2
+									},
+									{
+										"key": "SIFRA_PREDMETA",
+										"mend": true,
+										"dt": "TYPE_VARCHAR",
+										"pk": true,
+										"len": 5
+									},
+									{
+										"key": "GODINA_PREDMETA",
+										"mend": true,
+										"dt": "TYPE_NUMERIC",
+										"pk": false,
+										"len": 1
+									},
+									{
+										"key": "SEMESTAR_PREDMETA",
+										"mend": true,
+										"dt": "TYPE_NUMERIC",
+										"pk": false,
+										"len": 2
+									}
+								]
+							},
+							{
+								"type": "ind",
+								"name": "Studenti",
+								"path": "res/data/Veliki Set Podataka/Indeks - sekvencijalne datoteke",
+								"attributes": [
+									{
+										"key": "STRUKA",
+										"mend": true,
+										"dt": "TYPE_CHAR",
+										"pk": true,
+										"len": 1
+									},
+									{
+										"key": "BROJ INDEKSA",
+										"mend": true,
+										"dt": "TYPE_NUMERIC",
+										"pk": true,
+										"len": 6
+									},
+									{
+										"key": "PREZIME",
+										"mend": true,
+										"dt": "TYPE_VARCHAR",
+										"pk": false,
+										"len": 20
+									},
+									{
+										"key": "IME RODITELJA",
+										"mend": true,
+										"dt": "TYPE_VARCHAR",
+										"pk": false,
+										"len": 20
+									},
+									{
+										"key": "IME",
+										"mend": true,
+										"dt": "TYPE_VARCHAR",
+										"pk": false,
+										"len": 20
+									},
+									{
+										"key": "POL",
+										"mend": true,
+										"dt": "TYPE_CHAR",
+										"pk": false,
+										"len": 1
+									},
+									{
+										"key": "JMBG",
+										"mend": true,
+										"dt": "TYPE_CHAR",
+										"pk": false,
+										"len": 13
+									},
+									{
+										"key": "DATUM RODJENJA",
+										"mend": true,
+										"dt": "TYPE_DATETIME",
+										"pk": false,
+										"len": 25
+									},
+									{
+										"key": "ADRESA",
+										"mend": true,
+										"dt": "TYPE_VARCHAR",
+										"pk": false,
+										"len": 80
+									},
+									{
+										"key": "TELEFON",
+										"mend": true,
+										"dt": "TYPE_VARCHAR",
+										"pk": false,
+										"len": 20
+									}
+								]
+							},
+							{
+								"type": "ind",
+								"name": "StudijskiProgrami",
+								"path": "res/data/Veliki Set Podataka/Indeks - sekvencijalne datoteke",
+								"attributes": [
+									{
+										"key": "OZNAKA_PROGRAMA",
+										"mend": true,
+										"dt": "TYPE_CHAR",
+										"pk": true,
+										"len": 4
+									},
+									{
+										"key": "NAZIV_KOJI_SE_STICE",
+										"mend": true,
+										"dt": "TYPE_VARCHAR",
+										"pk": false,
+										"len": 80
+									},
+									{
+										"key": "NAZIV PROGRAMA",
+										"mend": true,
+										"dt": "TYPE_VARCHAR",
+										"pk": false,
+										"len": 80
+									}
+								]
+							},
+							{
+								"type": "ind",
+								"name": "TokStudija",
+								"path": "res/data/Veliki Set Podataka/Indeks - sekvencijalne datoteke",
+								"attributes": [
+									{
+										"key": "STRUKA",
+										"mend": true,
+										"dt": "TYPE_CHAR",
+										"pk": true,
+										"len": 1
+									},
+									{
+										"key": "BROJ INDEKSA",
+										"mend": true,
+										"dt": "TYPE_NUMERIC",
+										"pk": true,
+										"len": 6
+									},
+									{
+										"key": "OZNAKA_PROGRAMA",
+										"mend": true,
+										"dt": "TYPE_CHAR",
+										"pk": true,
+										"len": 4
+									},
+									{
+										"key": "SKOLSKA_GODINA",
+										"mend": true,
+										"dt": "TYPE_CHAR",
+										"pk": true,
+										"len": 4
+									},
+									{
+										"key": "GODINA_STUDIJA",
+										"mend": true,
+										"dt": "TYPE_NUMERIC",
+										"pk": false,
+										"len": 1
+									},
+									{
+										"key": "UPISUJE_PO_PLANU",
+										"mend": true,
+										"dt": "TYPE_CHAR",
+										"pk": false,
+										"len": 2
+									}
+								]
+							}
+						],
+						"relations": [
+							{
+								"name": "PlanStudijskogPrograma_NastavniPredmeti",
+								"source_table": "NastavniPredmeti",
+								"source_keys": [
+									"OZNAKA_PLANA",
+									"SIFRA_PREDMETA"
+								],
+								"target_table": "PlanStudijskogPrograma",
+								"target_keys": [
+									"OZNAKA_PLANA",
+									"SIFRA_PREDMETA"
+								]
+							},
+							{
+								"name": "PlanStudijskogPrograma_StudijskiProgrami",
+								"source_table": "StudijskiProgrami",
+								"source_keys": [
+									"OZNAKA_PROGRAMA"
+								],
+								"target_table": "PlanStudijskogPrograma",
+								"target_keys": [
+									"OZNAKA_PROGRAMA"
+								]
+							},
+							{
+								"name": "TokStudija_Studenti",
+								"source_table": "Studenti",
+								"source_keys": [
+									"STRUKA",
+									"BROJ INDEKSA"
+								],
+								"target_table": "TokStudija",
+								"target_keys": [
+									"STRUKA",
+									"BROJ INDEKSA"
+								]
+							},
+							{
+								"name": "TokStudija_StudijskiProgrami",
+								"source_table": "StudijskiProgrami",
+								"source_keys": [
+									"OZNAKA_PROGRAMA"
+								],
+								"target_table": "TokStudija",
+								"target_keys": [
+									"OZNAKA_PROGRAMA"
+								]
+							}
+						]
+					},
+					{
+						"pack_name": "Sekvencijalne datoteke",
+						"entities": [
+							{
+								"type": "sek",
+								"name": "NastavniPredmeti",
+								"path": "res/data/Veliki Set Podataka/Sekvencijalne datoteke",
+								"attributes": [
+									{
+										"key": "OZNAKA_PLANA",
+										"mend": true,
+										"dt": "TYPE_CHAR",
+										"pk": true,
+										"len": 2
+									},
+									{
+										"key": "SIFRA_PREDMETA",
+										"mend": true,
+										"dt": "TYPE_VARCHAR",
+										"pk": true,
+										"len": 5
+									},
+									{
+										"key": "NAZIV_PREDMETA",
+										"mend": true,
+										"dt": "TYPE_VARCHAR",
+										"pk": false,
+										"len": 80
+									},
+									{
+										"key": "TRAJE_SEMESTARA",
+										"mend": true,
+										"dt": "TYPE_NUMERIC",
+										"pk": false,
+										"len": 2
+									},
+									{
+										"key": "BROJ_KREDITA",
+										"mend": true,
+										"dt": "TYPE_NUMERIC",
+										"pk": false,
+										"len": 3
+									}
+								]
+							},
+							{
+								"type": "sek",
+								"name": "PlanStudijskogPrograma",
+								"path": "res/data/Veliki Set Podataka/Sekvencijalne datoteke",
+								"attributes": [
+									{
+										"key": "OZNAKA_PROGRAMA",
+										"mend": true,
+										"dt": "TYPE_CHAR",
+										"pk": true,
+										"len": 4
+									},
+									{
+										"key": "OZNAKA_PLANA",
+										"mend": true,
+										"dt": "TYPE_CHAR",
+										"pk": true,
+										"len": 2
+									},
+									{
+										"key": "SIFRA_PREDMETA",
+										"mend": true,
+										"dt": "TYPE_VARCHAR",
+										"pk": true,
+										"len": 5
+									},
+									{
+										"key": "GODINA_PREDMETA",
+										"mend": true,
+										"dt": "TYPE_NUMERIC",
+										"pk": false,
+										"len": 1
+									},
+									{
+										"key": "SEMESTAR_PREDMETA",
+										"mend": true,
+										"dt": "TYPE_NUMERIC",
+										"pk": false,
+										"len": 2
+									}
+								]
+							},
+							{
+								"type": "sek",
+								"name": "Studenti",
+								"path": "res/data/Veliki Set Podataka/Sekvencijalne datoteke",
+								"attributes": [
+									{
+										"key": "STRUKA",
+										"mend": true,
+										"dt": "TYPE_CHAR",
+										"pk": true,
+										"len": 1
+									},
+									{
+										"key": "BROJ INDEKSA",
+										"mend": true,
+										"dt": "TYPE_NUMERIC",
+										"pk": true,
+										"len": 6
+									},
+									{
+										"key": "PREZIME",
+										"mend": true,
+										"dt": "TYPE_VARCHAR",
+										"pk": false,
+										"len": 20
+									},
+									{
+										"key": "IME RODITELJA",
+										"mend": true,
+										"dt": "TYPE_VARCHAR",
+										"pk": false,
+										"len": 20
+									},
+									{
+										"key": "IME",
+										"mend": true,
+										"dt": "TYPE_VARCHAR",
+										"pk": false,
+										"len": 20
+									},
+									{
+										"key": "POL",
+										"mend": true,
+										"dt": "TYPE_CHAR",
+										"pk": false,
+										"len": 1
+									},
+									{
+										"key": "JMBG",
+										"mend": true,
+										"dt": "TYPE_CHAR",
+										"pk": false,
+										"len": 13
+									},
+									{
+										"key": "DATUM RODJENJA",
+										"mend": true,
+										"dt": "TYPE_DATETIME",
+										"pk": false,
+										"len": 25
+									},
+									{
+										"key": "ADRESA",
+										"mend": true,
+										"dt": "TYPE_VARCHAR",
+										"pk": false,
+										"len": 80
+									},
+									{
+										"key": "TELEFON",
+										"mend": true,
+										"dt": "TYPE_VARCHAR",
+										"pk": false,
+										"len": 20
+									}
+								]
+							},
+							{
+								"type": "sek",
+								"name": "StudijskiProgrami",
+								"path": "res/data/Veliki Set Podataka/Sekvencijalne datoteke",
+								"attributes": [
+									{
+										"key": "OZNAKA_PROGRAMA",
+										"mend": true,
+										"dt": "TYPE_CHAR",
+										"pk": true,
+										"len": 4
+									},
+									{
+										"key": "NAZIV_KOJI_SE_STICE",
+										"mend": true,
+										"dt": "TYPE_VARCHAR",
+										"pk": false,
+										"len": 80
+									},
+									{
+										"key": "NAZIV PROGRAMA",
+										"mend": true,
+										"dt": "TYPE_VARCHAR",
+										"pk": false,
+										"len": 80
+									}
+								]
+							},
+							{
+								"type": "sek",
+								"name": "TokStudija",
+								"path": "res/data/Veliki Set Podataka/Sekvencijalne datoteke",
+								"attributes": [
+									{
+										"key": "STRUKA",
+										"mend": true,
+										"dt": "TYPE_CHAR",
+										"pk": true,
+										"len": 1
+									},
+									{
+										"key": "BROJ INDEKSA",
+										"mend": true,
+										"dt": "TYPE_NUMERIC",
+										"pk": true,
+										"len": 6
+									},
+									{
+										"key": "OZNAKA_PROGRAMA",
+										"mend": true,
+										"dt": "TYPE_CHAR",
+										"pk": true,
+										"len": 4
+									},
+									{
+										"key": "SKOLSKA_GODINA",
+										"mend": true,
+										"dt": "TYPE_CHAR",
+										"pk": true,
+										"len": 4
+									},
+									{
+										"key": "GODINA_STUDIJA",
+										"mend": true,
+										"dt": "TYPE_NUMERIC",
+										"pk": false,
+										"len": 1
+									},
+									{
+										"key": "UPISUJE_PO_PLANU",
+										"mend": true,
+										"dt": "TYPE_CHAR",
+										"pk": false,
+										"len": 2
+									}
+								]
+							}
+						],
+						"relations": [
+							{
+								"name": "PlanStudijskogPrograma_NastavniPredmeti",
+								"source_table": "NastavniPredmeti",
+								"source_keys": [
+									"OZNAKA_PLANA",
+									"SIFRA_PREDMETA"
+								],
+								"target_table": "PlanStudijskogPrograma",
+								"target_keys": [
+									"OZNAKA_PLANA",
+									"SIFRA_PREDMETA"
+								]
+							},
+							{
+								"name": "PlanStudijskogPrograma_StudijskiProgrami",
+								"source_table": "StudijskiProgrami",
+								"source_keys": [
+									"OZNAKA_PROGRAMA"
+								],
+								"target_table": "PlanStudijskogPrograma",
+								"target_keys": [
+									"OZNAKA_PROGRAMA"
+								]
+							},
+							{
+								"name": "TokStudija_Studenti",
+								"source_table": "Studenti",
+								"source_keys": [
+									"STRUKA",
+									"BROJ INDEKSA"
+								],
+								"target_table": "TokStudija",
+								"target_keys": [
+									"STRUKA",
+									"BROJ INDEKSA"
+								]
+							},
+							{
+								"name": "TokStudija_StudijskiProgrami",
+								"source_table": "StudijskiProgrami",
+								"source_keys": [
+									"OZNAKA_PROGRAMA"
+								],
+								"target_table": "TokStudija",
+								"target_keys": [
+									"OZNAKA_PROGRAMA"
+								]
+							}
+						]
+					},
+					{
+						"pack_name": "Serijske datoteke",
+						"entities": [
+							{
+								"type": "ser",
+								"name": "NastavniPredmeti",
+								"path": "res/data/Veliki Set Podataka/Serijske datoteke",
+								"attributes": [
+									{
+										"key": "OZNAKA_PLANA",
+										"mend": true,
+										"dt": "TYPE_CHAR",
+										"pk": true,
+										"len": 2
+									},
+									{
+										"key": "SIFRA_PREDMETA",
+										"mend": true,
+										"dt": "TYPE_VARCHAR",
+										"pk": true,
+										"len": 5
+									},
+									{
+										"key": "NAZIV_PREDMETA",
+										"mend": true,
+										"dt": "TYPE_VARCHAR",
+										"pk": false,
+										"len": 80
+									},
+									{
+										"key": "TRAJE_SEMESTARA",
+										"mend": true,
+										"dt": "TYPE_NUMERIC",
+										"pk": false,
+										"len": 2
+									},
+									{
+										"key": "BROJ_KREDITA",
+										"mend": true,
+										"dt": "TYPE_NUMERIC",
+										"pk": false,
+										"len": 3
+									}
+								]
+							},
+							{
+								"type": "ser",
+								"name": "PlanStudijskogPrograma",
+								"path": "res/data/Veliki Set Podataka/Serijske datoteke",
+								"attributes": [
+									{
+										"key": "OZNAKA_PROGRAMA",
+										"mend": true,
+										"dt": "TYPE_CHAR",
+										"pk": true,
+										"len": 4
+									},
+									{
+										"key": "OZNAKA_PLANA",
+										"mend": true,
+										"dt": "TYPE_CHAR",
+										"pk": true,
+										"len": 2
+									},
+									{
+										"key": "SIFRA_PREDMETA",
+										"mend": true,
+										"dt": "TYPE_VARCHAR",
+										"pk": true,
+										"len": 5
+									},
+									{
+										"key": "GODINA_PREDMETA",
+										"mend": true,
+										"dt": "TYPE_NUMERIC",
+										"pk": false,
+										"len": 1
+									},
+									{
+										"key": "SEMESTAR_PREDMETA",
+										"mend": true,
+										"dt": "TYPE_NUMERIC",
+										"pk": false,
+										"len": 2
+									}
+								]
+							},
+							{
+								"type": "ser",
+								"name": "Studenti",
+								"path": "res/data/Veliki Set Podataka/Serijske datoteke",
+								"attributes": [
+									{
+										"key": "STRUKA",
+										"mend": true,
+										"dt": "TYPE_CHAR",
+										"pk": true,
+										"len": 1
+									},
+									{
+										"key": "BROJ INDEKSA",
+										"mend": true,
+										"dt": "TYPE_NUMERIC",
+										"pk": true,
+										"len": 6
+									},
+									{
+										"key": "PREZIME",
+										"mend": true,
+										"dt": "TYPE_VARCHAR",
+										"pk": false,
+										"len": 20
+									},
+									{
+										"key": "IME RODITELJA",
+										"mend": true,
+										"dt": "TYPE_VARCHAR",
+										"pk": false,
+										"len": 20
+									},
+									{
+										"key": "IME",
+										"mend": true,
+										"dt": "TYPE_VARCHAR",
+										"pk": false,
+										"len": 20
+									},
+									{
+										"key": "POL",
+										"mend": true,
+										"dt": "TYPE_CHAR",
+										"pk": false,
+										"len": 1
+									},
+									{
+										"key": "JMBG",
+										"mend": true,
+										"dt": "TYPE_CHAR",
+										"pk": false,
+										"len": 13
+									},
+									{
+										"key": "DATUM RODJENJA",
+										"mend": true,
+										"dt": "TYPE_DATETIME",
+										"pk": false,
+										"len": 25
+									},
+									{
+										"key": "ADRESA",
+										"mend": true,
+										"dt": "TYPE_VARCHAR",
+										"pk": false,
+										"len": 80
+									},
+									{
+										"key": "TELEFON",
+										"mend": true,
+										"dt": "TYPE_VARCHAR",
+										"pk": false,
+										"len": 20
+									}
+								]
+							},
+							{
+								"type": "ser",
+								"name": "StudijskiProgrami",
+								"path": "res/data/Veliki Set Podataka/Serijske datoteke",
+								"attributes": [
+									{
+										"key": "OZNAKA_PROGRAMA",
+										"mend": true,
+										"dt": "TYPE_CHAR",
+										"pk": true,
+										"len": 4
+									},
+									{
+										"key": "NAZIV_KOJI_SE_STICE",
+										"mend": true,
+										"dt": "TYPE_VARCHAR",
+										"pk": false,
+										"len": 80
+									},
+									{
+										"key": "NAZIV PROGRAMA",
+										"mend": true,
+										"dt": "TYPE_VARCHAR",
+										"pk": false,
+										"len": 80
+									}
+								]
+							},
+							{
+								"type": "ser",
+								"name": "TokStudija",
+								"path": "res/data/Veliki Set Podataka/Serijske datoteke",
+								"attributes": [
+									{
+										"key": "STRUKA",
+										"mend": true,
+										"dt": "TYPE_CHAR",
+										"pk": true,
+										"len": 1
+									},
+									{
+										"key": "BROJ INDEKSA",
+										"mend": true,
+										"dt": "TYPE_NUMERIC",
+										"pk": true,
+										"len": 6
+									},
+									{
+										"key": "OZNAKA_PROGRAMA",
+										"mend": true,
+										"dt": "TYPE_CHAR",
+										"pk": true,
+										"len": 4
+									},
+									{
+										"key": "SKOLSKA_GODINA",
+										"mend": true,
+										"dt": "TYPE_CHAR",
+										"pk": true,
+										"len": 4
+									},
+									{
+										"key": "GODINA_STUDIJA",
+										"mend": true,
+										"dt": "TYPE_NUMERIC",
+										"pk": false,
+										"len": 1
+									},
+									{
+										"key": "UPISUJE_PO_PLANU",
+										"mend": true,
+										"dt": "TYPE_CHAR",
+										"pk": false,
+										"len": 2
+									}
+								]
+							}
+						],
+						"relations": [
+							{
+								"name": "PlanStudijskogPrograma_NastavniPredmeti",
+								"source_table": "NastavniPredmeti",
+								"source_keys": [
+									"OZNAKA_PLANA",
+									"SIFRA_PREDMETA"
+								],
+								"target_table": "PlanStudijskogPrograma",
+								"target_keys": [
+									"OZNAKA_PLANA",
+									"SIFRA_PREDMETA"
+								]
+							},
+							{
+								"name": "PlanStudijskogPrograma_StudijskiProgrami",
+								"source_table": "StudijskiProgrami",
+								"source_keys": [
+									"OZNAKA_PROGRAMA"
+								],
+								"target_table": "PlanStudijskogPrograma",
+								"target_keys": [
+									"OZNAKA_PROGRAMA"
+								]
+							},
+							{
+								"name": "TokStudija_Studenti",
+								"source_table": "Studenti",
+								"source_keys": [
+									"STRUKA",
+									"BROJ INDEKSA"
+								],
+								"target_table": "TokStudija",
+								"target_keys": [
+									"STRUKA",
+									"BROJ INDEKSA"
+								]
+							},
+							{
+								"name": "TokStudija_StudijskiProgrami",
+								"source_table": "StudijskiProgrami",
+								"source_keys": [
+									"OZNAKA_PROGRAMA"
+								],
+								"target_table": "TokStudija",
+								"target_keys": [
+									"OZNAKA_PROGRAMA"
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}
